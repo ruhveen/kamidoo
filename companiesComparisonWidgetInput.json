@@ -1,0 +1,536 @@
+{
+   "companiesEntities":[
+      {
+         "EntityName":"Walmart",
+         "DataPoints":[
+            {
+               "Label":"Founders",
+               "Value":"Sam Walton"
+            },
+            {
+               "Label":"Area served",
+               "Value":"Worldwide"
+            },
+            {
+               "Label":"Key people",
+               "Value":"Greg Penner (Chairman), Doug McMillon (President & CEO)"
+            },
+            {
+               "Label":"Industry",
+               "Value":"Retail"
+            },
+            {
+               "Label":"Products",
+               "Value":"Electronics, movies and music, home and furniture, home improvement, clothing, footwear, jewelry, toys, health and beauty, pet supplies, sporting goods and fitness, auto, photo finishing, craft supplies, party supplies, grocery"
+            },
+            {
+               "Label":"Services",
+               "Value":"Ria Money Transfer, Walmart MoneyCard, Pickup Today, Walmart.com, Walmart Pay"
+            },
+            {
+               "Label":"Revenue",
+               "Value":"485.87 billion USD (2016)"
+            },
+            {
+               "Label":"Operating income",
+               "Value":"22.76 billion USD (2016)"
+            },
+            {
+               "Label":"Net income",
+               "Value":"13.64 billion USD (2016)"
+            },
+            {
+               "Label":"Total assets",
+               "Value":"198.82 billion USD (2016)"
+            },
+            {
+               "Label":"Total equity",
+               "Value":"77.79 billion USD (2016)"
+            },
+            {
+               "Label":"Owner",
+               "Value":"Walton family (51%)"
+            },
+            {
+               "Label":"Number of employees",
+               "Value":"Million, Worldwide (2016), 1.4"
+            },
+            {
+               "Label":"Divisions",
+               "Value":"Sam's Club, Global eCommerce"
+            },
+            {
+               "Label":"Subsidiaries",
+               "Value":"Walmart Canada, Walmart Mexico, Walmart Chile, Walmart de México y Centroamérica, @WalmartLabs, Walmart Neighborhood Market, Asda, Amigo Supermarkets, Vudu, Massmart, Seiyu Group, Bompreço, Líder, Jet.com, Hayneedle, Moosejaw, ModCloth"
+            },
+            {
+               "Label":"Foundation",
+               "Value":"7\\2\\1962, , Rogers, Arkansas, U.S."
+            },
+            {
+               "Label":"Location",
+               "Value":"Bentonville, Arkansas, U.S."
+            },
+            {
+               "Label":"Locations",
+               "Value":"11,695 stores worldwide(January 31, 2017)"
+            },
+            {
+               "Label":"Homepage",
+               "Value":"|http://corporate.walmart.com/|Corporate website}}, |https://www.walmart.com/|Commercial website}}"
+            },
+            {
+               "Label":"Stock",
+               "Value":"WMT:NYSE"
+            }
+         ]
+      },
+      {
+         "EntityName":"Google",
+         "DataPoints":[
+            {
+               "Label":"Type",
+               "Value":"Subsidiary"
+            },
+            {
+               "Label":"Stock",
+               "Value":"NASDAQ: GOOGL"
+            },
+            {
+               "Label":"Industry",
+               "Value":"Internet, Software, Computer hardware"
+            },
+            {
+               "Label":"Foundation",
+               "Value":"09\\4\\1998, , Menlo Park, California"
+            },
+            {
+               "Label":"Founders",
+               "Value":"Larry Page, Sergey Brin"
+            },
+            {
+               "Label":"Area served",
+               "Value":"Worldwide"
+            },
+            {
+               "Label":"Key people",
+               "Value":"Sundar Pichai (CEO), Larry Page (CEO - Alphabet Inc.), Sergey Brin (President - Alphabet Inc.)"
+            },
+            {
+               "Label":"Number of employees",
+               "Value":"57,100 (Q2 2015)"
+            },
+            {
+               "Label":"Parent",
+               "Value":"Independent (1998-2015), Alphabet Inc. (2015–present)"
+            },
+            {
+               "Label":"Homepage",
+               "Value":"https://www.google.com"
+            },
+            {
+               "Label":"Location",
+               "Value":"Googleplex, Mountain View, California, U.S."
+            }
+         ]
+      },
+      {
+         "EntityName":"Amazon",
+         "DataPoints":[
+            {
+               "Label":"Former name",
+               "Value":"Cadabra, Inc. (1994–1995)"
+            },
+            {
+               "Label":"Stock",
+               "Value":"NASDAQ|AMZN"
+            },
+            {
+               "Label":"Industry",
+               "Value":"Internet, Online shopping"
+            },
+            {
+               "Label":"Founded",
+               "Value":"07\\05\\1994"
+            },
+            {
+               "Label":"Founders",
+               "Value":"Jeff Bezos"
+            },
+            {
+               "Label":"Area served",
+               "Value":"Worldwide"
+            },
+            {
+               "Label":"Key people",
+               "Value":"Jeff Bezos (Chairman, President & CEO), Werner Vogels (CTO)"
+            },
+            {
+               "Label":"Products",
+               "Value":"Amazon Appstore, Amazon Echo, Amazon Kindle, Amazon Video, Amazon Web Services, ComiXology"
+            },
+            {
+               "Label":"Revenue",
+               "Value":"135.98 billion USD  (2016)"
+            },
+            {
+               "Label":"Revenue year",
+               "Value":"2016"
+            },
+            {
+               "Label":"Operating income",
+               "Value":"4.186 billion USD  (2016)"
+            },
+            {
+               "Label":"Income year",
+               "Value":"2016"
+            },
+            {
+               "Label":"Net income",
+               "Value":"2.371 billion USD  (2016)"
+            },
+            {
+               "Label":"Total assets",
+               "Value":"83.402 billion USD  (2016)"
+            },
+            {
+               "Label":"Total equity",
+               "Value":"19.285 billion USD  (2016)"
+            },
+            {
+               "Label":"Number of employees",
+               "Value":"341,400 (2017)"
+            },
+            {
+               "Label":"Subsidiaries",
+               "Value":"A9.com, Alexa Internet, Amazon Books, Amazon Game Studios, Amazon Lab126, Amazon Studios, Amazon Web Services, Audible Inc., Book Depository, Digital Photography Review, Goodreads, Internet Movie Database, Junglee.com, Souq.com, Twitch.tv, Whole Foods Market, Woot, Zappos"
+            },
+            {
+               "Label":"Website",
+               "Value":"amazon.com"
+            }
+         ]
+      },
+      {
+         "EntityName":"Costco",
+         "DataPoints":[
+            {
+               "Label":"Stock",
+               "Value":"NASDAQ|COST"
+            },
+            {
+               "Label":"Predecessor",
+               "Value":"Price Club"
+            },
+            {
+               "Label":"Foundation",
+               "Value":"07\\12\\1976,  (as Price Club), San Diego, California, United States09\\15\\1983, ,  (as Costco), Seattle, Washington (state), United States"
+            },
+            {
+               "Label":"Founders",
+               "Value":"James Sinegal, Jeffrey Brotman"
+            },
+            {
+               "Label":"Location",
+               "Value":"Issaquah, Washingtonת United States"
+            },
+            {
+               "Label":"Num locations",
+               "Value":"727 warehouses (2017)"
+            },
+            {
+               "Label":"Area served",
+               "Value":"United States, Canada, Mexico, United Kingdom, Japan, South Korea, Taiwan, Australia, Spain, Iceland, France"
+            },
+            {
+               "Label":"Key people",
+               "Value":"Hamilton E. James (Chairman), W. Craig Jelinek (President and CEO )"
+            },
+            {
+               "Label":"Industry",
+               "Value":"Retail"
+            },
+            {
+               "Label":"Brands",
+               "Value":"Kirkland Signature"
+            },
+            {
+               "Label":"Services",
+               "Value":"Merchandising, Cash and carry (wholesale), Warehouse club"
+            },
+            {
+               "Label":"Revenue",
+               "Value":"118.7 billion USD (2016)"
+            },
+            {
+               "Label":"Operating income",
+               "Value":"3.672 billion USD (2016)"
+            },
+            {
+               "Label":"Net income",
+               "Value":"2.350 billion USD (2016)"
+            },
+            {
+               "Label":"Total assets",
+               "Value":"33.16 billion USD (2016)"
+            },
+            {
+               "Label":"Total equity",
+               "Value":"12.07 billion USD (2016)"
+            },
+            {
+               "Label":"Number of employees",
+               "Value":"126,000 (2016)"
+            },
+            {
+               "Label":"Website",
+               "Value":"www.costco.com"
+            }
+         ]
+      },
+      {
+         "EntityName":"Walgreens",
+         "DataPoints":[
+            {
+               "Label":"Stock",
+               "Value":"Walgreens"
+            },
+            {
+               "Label":"Foundation",
+               "Value":"1901, Chicago, Illinois, United States"
+            },
+            {
+               "Label":"Founders",
+               "Value":"Charles Rudolph Walgreen"
+            },
+            {
+               "Label":"Location",
+               "Value":"200 Wilmot Road, Deerfield, Illinois, U.S."
+            },
+            {
+               "Label":"Area served",
+               "Value":"United States"
+            },
+            {
+               "Label":"Key people",
+               "Value":"James A. Skinner (Executive Chairman), Alex Gourlay (President), Stefano Pessina (CEO)"
+            },
+            {
+               "Label":"Industry",
+               "Value":"Retail"
+            },
+            {
+               "Label":"Products",
+               "Value":"Drug store, Pharmacy"
+            },
+            {
+               "Label":"Parent",
+               "Value":"Walgreens Boots Alliance (2014–present)"
+            },
+            {
+               "Label":"Slogan",
+               "Value":"At the Corner of Happy and Healthy"
+            },
+            {
+               "Label":"Homepage",
+               "Value":"walgreens.com"
+            }
+         ]
+      },
+      {
+         "EntityName":"PetSmart",
+         "DataPoints":[
+            {
+               "Label":"Stock",
+               "Value":"PETM"
+            },
+            {
+               "Label":"Founders",
+               "Value":"W.R. Ford Smith II, Jim Dougherty"
+            },
+            {
+               "Label":"Area served",
+               "Value":"United States, Canada and Puerto Rico"
+            },
+            {
+               "Label":"Key people",
+               "Value":"Philip L. Francis (CEO)"
+            },
+            {
+               "Label":"Industry",
+               "Value":"Retail"
+            },
+            {
+               "Label":"Products",
+               "Value":"Pet Supplies, Grooming, Training"
+            },
+            {
+               "Label":"Services",
+               "Value":"PetsHotel, Doggie Day Camp"
+            },
+            {
+               "Label":"Revenue",
+               "Value":"6.916 billion USD (2014)"
+            },
+            {
+               "Label":"Operating income",
+               "Value":"693.3 billion USD (2014)"
+            },
+            {
+               "Label":"Net income",
+               "Value":"419.52 billion USD (2014)"
+            },
+            {
+               "Label":"Total assets",
+               "Value":"2.521 billion USD (2014)"
+            },
+            {
+               "Label":"Total equity",
+               "Value":"1.093 billion USD (2014)"
+            },
+            {
+               "Label":"Number of employees",
+               "Value":"53,000+"
+            },
+            {
+               "Label":"Website",
+               "Value":"www.petsmart.com"
+            },
+            {
+               "Label":"Former name",
+               "Value":"Pacific Coast Distributing, PetFood Warehouse, PetsMart"
+            },
+            {
+               "Label":"Foundation",
+               "Value":"1986 (Phoenix, Arizona, Arizona, United States)"
+            },
+            {
+               "Label":"Location",
+               "Value":"Phoenix, Arizona"
+            }
+         ]
+      },
+      {
+         "EntityName":"Facebook",
+         "DataPoints":[
+            {
+               "Label":"Website type",
+               "Value":"Social networking service"
+            },
+            {
+               "Label":"Language",
+               "Value":"Multilingualism (140)"
+            },
+            {
+               "Label":"Stock",
+               "Value":"NASDAQ|FB"
+            },
+            {
+               "Label":"Foundation",
+               "Value":"02\\04\\2004"
+            },
+            {
+               "Label":"Location",
+               "Value":"Menlo Park, California, U.S."
+            },
+            {
+               "Label":"Area served",
+               "Value":"United States (2004–2005), Worldwide, except Censorship of Facebook (2005–present)"
+            },
+            {
+               "Label":"Founders",
+               "Value":"Mark Zuckerberg, Eduardo Saverin, Andrew McCollum, Dustin Moskovitz, Chris Hughes"
+            },
+            {
+               "Label":"Key people",
+               "Value":"Mark Zuckerberg (Chairman and CEO), Sheryl Sandberg (COO)"
+            },
+            {
+               "Label":"Industry",
+               "Value":"Internet"
+            },
+            {
+               "Label":"Revenue",
+               "Value":"27.638 billion USD (2016)"
+            },
+            {
+               "Label":"Operating income",
+               "Value":"12.427 billion USD (2016)"
+            },
+            {
+               "Label":"Net income",
+               "Value":"10.217 billion USD (2016)"
+            },
+            {
+               "Name":"Assets",
+               "Value":"64.961 billion USD (2016)"
+            },
+            {
+               "Name":"Equity",
+               "Value":"59.194 billion USD (2016)"
+            },
+            {
+               "Label":"Number of employees",
+               "Value":"20,658 (June 30, 2017)"
+            },
+            {
+               "Label":"Subsid",
+               "Value":"Instagram, Facebook Messenger, WhatsApp, Oculus VR"
+            },
+            {
+               "Label":"Url",
+               "Value":"https://www.fb.com/"
+            },
+            {
+               "Label":"Number of users",
+               "Value":"2 billion monthly active users (June 2017)"
+            }
+         ]
+      },
+      {
+         "EntityName":"YouTube",
+         "DataPoints":[
+            {
+               "Label":"Founded",
+               "Value":"2\\14\\2005"
+            },
+            {
+               "Label":"Location",
+               "Value":"901 Cherry Avenue, San Bruno, California"
+            },
+            {
+               "Label":"Area served",
+               "Value":"Worldwide (except censorship of YouTube)"
+            },
+            {
+               "Label":"Founders",
+               "Value":"Steve Chen, Chad Hurley, Jawed Karim"
+            },
+            {
+               "Label":"CEO",
+               "Value":"Susan Wojcicki (Chief executive officer)"
+            },
+            {
+               "Label":"Key people",
+               "Value":"Susan Wojcicki (CEO), Chad Hurley (Adviser)"
+            },
+            {
+               "Label":"Industry",
+               "Value":"Video hosting service"
+            },
+            {
+               "Label":"Owner",
+               "Value":"Alphabet Inc."
+            },
+            {
+               "Label":"Parent",
+               "Value":"Google (2006–present)"
+            },
+            {
+               "Label":"Slogan",
+               "Value":"Broadcast Yourself (2005–2012)"
+            }
+         ]
+      }
+   ]
+}
