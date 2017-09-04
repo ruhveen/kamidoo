@@ -9,7 +9,17 @@ class JsonHelper(object):
         companies_json = json.loads(companies_json)
         result = {}
         for company in companies_json["companiesEntities"]:
-            result[company["EntityName"]] = [datapoint["Label"] for datapoint in company["DataPoints"] if "Label" in datapoint]
+
+            labels = []
+            industry = None
+            for datapoint in company["DataPoints"]:
+                if "Label" in datapoint:
+                    if not datapoint["Label"].lower() == "industry":
+                        labels.append(datapoint["Label"])
+                    else:
+                        industry = datapoint["Value"]
+
+            result[company["EntityName"]] = (industry,labels)
 
         return result
 

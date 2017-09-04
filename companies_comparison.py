@@ -65,7 +65,7 @@ class CompaniesComparison(object):
         BONUS
         3. All the Companies combinations with their max shared cretierias that have a minimum shared creteria
         of the given size.
-        AS REQUESTED IN THE WHATSAPP
+        AS REQUESTED IN THE WHATSAPP AND IN EMAIL BOTTOM
 
         :param companies_to_labels:
         :param size:
@@ -89,10 +89,16 @@ class CompaniesComparison(object):
 
         for company_couples in itertools.combinations(companies_to_labels, 2):
 
+            # If they're not in the same industry
+            if not companies_to_labels[company_couples[0]][0] == companies_to_labels[company_couples[1]][0]:
+                continue
+
             company_one_name = company_couples[0]
             company_two_name = company_couples[1]
-            company_one = (company_one_name, companies_to_labels[company_couples[0]])
-            company_two = (company_two_name, companies_to_labels[company_couples[1]])
+
+            # Create a tuple of type: (name, labels array) for each company
+            company_one = (company_one_name, companies_to_labels[company_couples[0]][1])
+            company_two = (company_two_name, companies_to_labels[company_couples[1]][1])
 
             # Get all combinations of the shared labels between the 2 companies
             # In the form of a combination id to the set of labels

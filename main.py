@@ -2,7 +2,7 @@ from json_helper import JsonHelper
 from companies_comparison import CompaniesComparison
 
 
-MIN_CRITERIA_NUM = 3
+MIN_CRITERIA_NUM = 4
 
 with open('companiesComparisonWidgetInput.json', 'r') as content_file:
     content = content_file.read()
