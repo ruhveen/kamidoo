@@ -55,8 +55,6 @@ class CompaniesComparison(object):
               % (company_one[0], len(company_one_labels), size, len(result))
         return result
 
-
-    # All subgroups that have size X shared labels
     @staticmethod
     def find_groups_with_size(companies_to_labels, size):
         '''
