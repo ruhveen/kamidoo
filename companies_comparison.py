@@ -22,37 +22,37 @@ class CompaniesComparison(object):
         :return:
         """
 
-        shared_datapoints_id_to_permutation = {}
+        shared_labels_combination_id_to_labels = {}
 
-        all_company_one_label_permutations_size_x =\
+        all_company_one_label_combinations_size_x =\
             CompaniesComparison.get_company_label_combinations_size_x(company_one, size)
-        all_company_two_label_permutations_size_x =\
+        all_company_two_label_combinations_size_x =\
             CompaniesComparison.get_company_label_combinations_size_x(company_two, size)
 
-        keys_a = set(all_company_one_label_permutations_size_x.keys())
-        keys_b = set(all_company_two_label_permutations_size_x.keys())
+        keys_a = set(all_company_one_label_combinations_size_x.keys())
+        keys_b = set(all_company_two_label_combinations_size_x.keys())
         intersection = keys_a & keys_b
 
         if DEBUG_MODE:
             print "For %s and %s there are %s intersected combinations of labels\n" % \
               (company_one[0],company_two[0],len(intersection))
 
-        return {hash_key:all_company_two_label_permutations_size_x[hash_key] for hash_key in intersection}
+        return {hash_key:all_company_two_label_combinations_size_x[hash_key] for hash_key in intersection}
 
     @staticmethod
-    def get_company_label_combinations_size_x(company_one, size):
-        all_company_one_label_permutations_size_x = []
+    def get_company_label_combinations_size_x(company, size):
+        company_label_combinations_size_x = []
         try:
-            company_one_labels = company_one[1]
-            all_company_one_label_permutations_size_x = itertools.combinations(company_one_labels, size)
+            company_one_labels = company[1]
+            company_label_combinations_size_x = itertools.combinations(company_one_labels, size)
         except Exception as err:
-            print '%s for %s' % (err, company_one)
+            print '%s for %s' % (err, company)
 
 
-        result = {hash(frozenset(x)):frozenset(x) for x in all_company_one_label_permutations_size_x}
+        result = {hash(frozenset(x)):frozenset(x) for x in company_label_combinations_size_x}
         if DEBUG_MODE:
             print "For %s | %s (labels) choose %s (size) of combinations is %s" \
-              % (company_one[0], len(company_one_labels), size, len(result))
+              % (company[0], len(company_one_labels), size, len(result))
         return result
 
     @staticmethod
